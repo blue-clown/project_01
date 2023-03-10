@@ -3,7 +3,8 @@
     "pages/home/home",
     "pages/message/message",
     "pages/contact/contact",
-    "pages/shoplist/shoplist"
+    "pages/shoplist/shoplist",
+    "pages/list/list"
   ],
   "window": {
     "backgroundTextStyle": "dark",
