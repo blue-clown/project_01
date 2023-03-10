@@ -1,0 +1,10 @@
+<!--pages/message/message.wxml-->
+<view>test</view>
+<rgb-change></rgb-change>
+<view>{{numA}} + {{numB}} = {{sum}}</view>
+<van-button type="primary" bindtap="btnHandler" data-step="{{1}}">
+    numA + 1
+</van-button>
+<van-button type="danger" bindtap="btnHandler" data-step="{{-1}}">
+    numA - 1
+</van-button>

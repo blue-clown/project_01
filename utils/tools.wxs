@@ -1,0 +1,16 @@
+function splitPhone(str){
+  // 判断str是否为手机号标准长度
+  if(str.length !== 11) return str
+  // 把字符串转为数组
+  var arr = str.split('')
+  // 给数组添加‘-’分隔符
+  arr.splice(3,0,'-')
+  arr.splice(8,0,'-')
+  // 将数组转为字符串返回
+  return arr.join('')
+}
+
+// 导出模块
+module.exports = {
+  splitPhone:splitPhone
+}

@@ -1,0 +1,70 @@
+/* view案例 */
+.container1 view{
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.container1 view:nth-child(1){
+  background-color: skyblue;
+}
+.container1 view:nth-child(2){
+  background-color: lightgreen;
+}
+.container1 view:nth-child(3){
+  background-color: lightpink;
+}
+
+.container1{
+  display: flex;
+  justify-content: space-around;
+}
+/* scroll-view案例 */
+.container2 view{
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.container2 view:nth-child(1){
+  background-color: skyblue;
+}
+.container2 view:nth-child(2){
+  background-color: lightgreen;
+}
+.container2 view:nth-child(3){
+  background-color: lightpink;
+}
+
+.container2{
+  border: 1px solid red;
+  width: 100px;
+  height: 120px;
+}
+
+/* swiper swiper-item案例 */
+.swiper-container{
+  height: 150px;
+}
+.item{
+  height: 100%;
+  line-height: 150px;
+  text-align: center;
+}
+swiper-item:nth-child(1) .item{
+  background-color: lightgrey;
+}
+swiper-item:nth-child(2) .item{
+  background-color: lightgoldenrodyellow;
+}
+swiper-item:nth-child(3) .item{
+  background-color: lightskyblue;
+}
+
+/* image 组件 */
+image{
+/* 通过边框线证明image有默认的宽和高 */
+border: 1px solid red;
+}
